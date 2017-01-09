@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+	<title>Kalendae Date picker Demo by GBin1.com</title>
+	<link rel="stylesheet" href="css/kalendae.css" type="text/css" charset="utf-8">
+	<script src="js/kalendae.js" type="text/javascript" charset="utf-8"></script>
+	<style type="text/css" media="screen">
+		body{
+			background: #202020;
+			color: #CCC;
+		}
+		
+		.kalendae .k-days span.closed {
+			background:red;
+		}
+	</style>
+</head>
+<body>
+	<h1>跨月日历筛选</h1>
+	<script type="text/javascript" charset="utf-8">
+		new Kalendae(document.body, {
+			months:1,
+			mode:'range',
+			selected:[Kalendae.moment().subtract({M:1}), Kalendae.moment().add({M:1})]
+		});
+
+		new Kalendae({
+			attachTo:document.body,
+			months:2,
+			mode:'range',
+			selected:[Kalendae.moment().subtract({M:1}), Kalendae.moment().add({M:1})]
+		});
+		
+		new Kalendae({
+			attachTo:document.body,
+			months:3,
+			mode:'range',
+			selected:[Kalendae.moment().subtract({M:1}), Kalendae.moment().add({M:1})]
+		});
+	</script>
+</body>
+</html>

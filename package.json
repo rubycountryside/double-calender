@@ -1,0 +1,19 @@
+{
+  "name": "double-calender",
+  "version": "0.0.1",
+  "description": "Cross month date selection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubycountryside/double-calender.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubycountryside/double-calender/issues"
+  },
+  "homepage": "https://github.com/rubycountryside/double-calender#readme"
+}
